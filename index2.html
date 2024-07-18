@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Centered Circle</title>
+<style>
+    /* Centering the circle using flexbox */
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; /* Make the container full height of the viewport */
+    }
+    
+    /* Styling the circle */
+    .circle {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        background-color: blue; /* Change the color as desired */
+    }
+
+    /* Styling the button */
+    .button {
+        background-color: red;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+</style>
+</head>
+<body>
+    <!-- Container for centering -->
+    <div class="container">
+        <!-- Circle element -->
+        <div class="circle"></div>
+    </div>
+    <!-- Button -->
+    <button class="button">Go on, Click me!</button>
+</body>
+</html>
